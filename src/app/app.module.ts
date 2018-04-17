@@ -1,16 +1,20 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import {FormsModule} from '@angular/forms';
 
 
 import { AppComponent } from './app.component';
+import { MonPostListComponentComponent } from './mon-post-list-component/mon-post-list-component.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MonPostListComponentComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
